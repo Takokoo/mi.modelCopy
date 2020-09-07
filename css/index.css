@@ -1,0 +1,630 @@
+body {
+font: 12px/1.5 Microsoft YaHei, Heiti SC;
+min-width: 1226px;
+}
+
+.topbar-banner  {
+    position: relative;
+    width: 100%;
+    height: 120px;
+   
+}
+.topbar-banner a {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    background-image: url(../images/topbarbanner.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: auto 120px;
+    
+}
+.site-topbar{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #333333;
+}
+.container {
+   margin: 0 auto;
+    position: relative;
+    width: 1226px;
+}
+.container a {
+    display: inline-block;
+    height: 40px;
+    font-size: 12px;
+    color: #b0b0b0;
+}  
+.topbar-nav{
+   
+    float: left;
+} 
+.sep {
+    width: 0;
+    height: 12px;
+    border-right: solid 1px #424242;
+    margin: 0 8px;
+}
+.userInfo {
+    float: right;
+}
+.shopcar {
+   
+    width: 120px;
+    background-color: rgb(61, 56, 56);
+    text-align: center;
+}
+.shopcar span {
+    font-size: 12px;
+    margin: 0 3px;
+
+}
+.shopcarlist{
+    display: none;
+    position: absolute;
+    width: 316px;
+    height: 0;
+    height: 100px;
+    float: right;
+    right: 0;
+    background-color: #fff;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    text-align: center;
+    line-height: 100px;
+    font-size: 20px;
+}
+.shopcarlist:hover {
+    cursor:pointer;
+}
+.header {
+
+    height: 100px;
+    
+}
+.logo {
+    margin-top: 22px;
+    width: 55px;
+    height: 55px;
+   
+    background-image: url(../images/Snipaste_2020-08-14_16-34-57.png);
+}
+.doodle {
+   
+    margin-left: 5px;
+    width: 165px;
+    height: 100px;
+    background-image: url(../images/b06819007feedbea62aedaa3089633d2.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+
+.headernav li{
+   
+    height: 86px;
+    margin: 7px 0px 7px 10px;
+    line-height: 87px;
+    text-align: center;
+    float: left;
+    
+    
+}
+.headernav a {
+  
+    color: black;
+    font-size: 16px;
+}
+.search {
+    float:right;
+    width: 295px;
+    height: 50px;
+    margin: 25px 0;
+}
+.search input {
+    float: left;
+    height: 50px;
+    width: 245px;
+}
+.search  span{
+    margin-left: -1px;
+    float: left;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    font-family: icomoon;
+    border: solid 1px #b0b0b0;
+}
+.mainshow {
+    position: relative;
+    height: 460px;
+    
+}
+.categoryList {
+    position: absolute;
+    z-index: 1;
+    float: left;
+    height: 460px;
+    width: 234px;
+    background-color:rgba(0,0,0,.3);
+}
+.categoryList ul{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.listdetails{
+    display: none;
+    position: absolute;
+    width: 992px;
+    height: 460px;
+    float: left;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    text-align: center;
+    z-index: 2;
+}
+.listdetails:hover {
+    cursor:pointer;
+}
+.categoryList ul li {
+  
+    width: 234px;
+    height: 42px;
+   
+}
+.categoryList ul li:hover{
+    background-color: #ff6700;
+    cursor: pointer;
+}
+.categoryList ul li a {
+   margin-left: 35px;
+    color: white;
+    font-size: 16px;
+    line-height: 42px;
+}
+.categoryList ul li em {
+    float: right;
+    margin-right: 20px;
+    color: white;
+    line-height: 42px;
+    
+}
+.swiper {
+    position: absolute;;
+    float: left;
+    height: 460px;
+    background-size: contain;
+    overflow: hidden;
+}
+.swiper .focusbg {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.swiper .focusbg ul {
+    position: absolute;
+    width: 600%;
+    height: 100%;
+}
+.swiper .focusbg li {
+    float: left;
+}
+.swiper-btn-prev,.swiper-btn-next {
+    position: absolute;
+width: 41px;
+height: 69px;
+float: left;
+top: 200px;
+color: white;
+line-height: 69px;
+text-align: center;
+
+
+}
+.swiper .swiper-btn-prev {
+font-size: 40px;
+    float: left;
+  left:234px;
+      }
+.swiper .swiper-btn-next {
+
+  float: right;
+left: 1185px;
+font-size: 40px;
+    }
+    .swiper .swiper-btn-next:hover{
+        background-color:rgba(0, 0, 0, .3);
+    }
+    .swiper .swiper-btn-prev:hover{
+        background-color:rgba(0, 0, 0, .3);
+    }
+    .dot {
+        position:absolute;
+        right: 1px;
+        bottom: 20px;
+        width: 200px;
+        height: 22px;
+       
+    }
+ 
+    .dot li {
+        float: left;
+        width: 10px;
+        height:10px;
+        border: solid 2px #b0b0b0;
+        background-color:rgba(0,0,0,.4);
+        border-radius: 10px;
+        margin: 6px 6px;
+    }
+    .dot  .current{
+        background-color:white;
+    }
+    .dot li:hover{
+        cursor: pointer;
+        background-color: white;
+    }
+
+.michannel {
+    margin-top: 14px;
+    height: 170px;
+
+}
+.channelList {
+    
+    float: left;
+    width: 236px;
+    height: 170px;
+   background-color: #5f5750;
+}
+.channelList ul li {
+    float: left;
+    width: 76px;
+    height: 82px;
+    margin: 1px;
+}
+.channelList ul li a{
+    float: left;
+    width: 70px;
+    height: 64px;
+    margin: 3px 5px;
+    text-align: center;
+    color: aliceblue;
+   
+}
+.channelList ul li a span {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 18px 23px 3px 23px;
+  
+    
+
+}
+.bouti a{
+    
+    float: left;
+    margin-left: 14px;
+    width: 316px;
+    height: 170px;
+    background-color: #ccc;
+    background-image: url(../images/b746a4db2e0473cc076a3a4b9bbe0235.jpg);
+    background-size: contain;
+}
+.mainpage {
+    position: relative;
+    width: 100%;
+    
+    background-color: #f5f5f5;
+}
+ .shangou {
+     margin-top: 30px;
+   font-size: 22px;
+   font-weight: 300;
+   line-height: 58px;
+    height: 58px;
+    color: #333333;
+}
+
+ .shangou span {
+    
+    float: right;
+    margin-top: 26px    ;
+    width: 36px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    border: solid 1px #b0b0b0;
+}
+
+
+.flashSale .countdown {
+    position: relative;
+    float: left;
+    width: 234px;
+    height: 340px;
+    background-color: #ede9e9;
+    border-top: 1px solid skyblue;
+}
+.flashSale .countdown .round {
+    width: 234px;
+    height: 46px;
+    margin-top: 40px;
+    font-size: 20px;
+    color: #df3833;
+    text-align: center;
+
+}
+.flashSale .countdown img {
+    position: absolute;
+    left: 100px;
+    top: 111px;
+}
+.flashSale .countdown .desc {
+    position: absolute;
+    top: 195px;
+    width: 100%;
+    height: 22px;
+    font-size: 16px;
+    color: #b0b0b0;
+    text-align: center;
+}
+.flashSale .countdown .timeend {
+    margin: 156px auto 0;
+    height: 46px;
+    width: 168px;
+}
+.flashSale .countdown .timeend span {
+    float: left;
+    width: 46px;
+    height: 46px;
+   background-color: rgba(0, 0,0, .5)
+}
+.flashSale .countdown .timeend i{
+    float:left;
+    width: 15px;
+    height: 100%;
+    text-align: center;
+    line-height: 38px;
+    font-size: 30px;
+}
+.flashsaleList {
+    float: left;
+    width: 992px;
+    height: 340px;
+   
+}
+
+.flashsaleList  .swiper-wrapper {
+    position: relative;
+    height: 340px;
+    width: 100%;
+}
+.swiper-wrapper li {
+    float: left;
+    border-top: 1px solid #f87300;
+    margin-left: 14px;
+    width: 234px;
+    height:100%;
+    background-color:white;
+}
+.swiper-wrapper .rainbow .content .thumb {
+    width: 160px;
+    height: 160px;
+   margin: 22px auto;
+}
+.swiper-wrapper .rainbow .content .title {
+  
+    margin: 3px 80px;
+    font-size: 14px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    color: #212121;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.swiper-wrapper .rainbow .content .desc {
+    margin: 5px 80px;
+    font-size: 9px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    color: #b0b0b0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.swiper-wrapper .rainbow .content .price{
+    margin: 5px 80px;
+    color: #f87300;
+}
+.swiper-wrapper .rainbow .content .price del{
+color: #b0b0b0;
+}
+.bodybanner {
+  
+    height: 120px;
+   margin-top: 362px;
+
+   
+}
+.phone {
+    margin-top: 22px;
+    height: 672px;
+
+}
+.phone {
+    height: 672px;
+}
+.phone .phonetitle {
+    margin-top: 30px;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 58px;
+   height: 58px;
+   color: #333333;
+}
+
+.phone .phonetitle  span {
+   
+   float: right;
+   margin-top: 26px    ;
+   width: 100px;
+   height: 18px;
+   text-align: center;
+   line-height: 18px;
+   font-size: 18px;
+  
+}
+.phone .phoneContent {
+    
+    width: 100%;
+    height: 614px;
+    
+}
+.phone .phoneContent  a {
+    float: left;
+    width: 234px;
+    height: 100%;
+}
+.phone .phoneContent .phonelist li {
+    
+    float: left;
+    width: 234px;
+    height: 300px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background-color: white;
+}
+
+.phoneitem-1  .thumb {
+    width: 160px;
+    height: 160px;
+   margin: 22px auto;
+}
+.phoneitem-1  .title {
+   width: 200px;
+    margin: 3px 80px;
+    font-size: 14px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    color: #212121;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.phoneitem-1  .desc {
+    
+    margin: 5px 80px;
+    font-size: 11px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    color: #b0b0b0;
+   
+    white-space: nowrap;
+}
+.phoneitem-1 .price{
+    width: 212px;
+    margin: 5px 10px;
+    font-size: 16px;
+    color: #f87300;
+    text-align: center;
+}
+.bodybanner2 {
+    height: 120px;
+margin-top: 22px;
+}
+.spare {
+width: 100%;
+height: 22px;
+}
+.footer{
+    width: 1226px;
+    height: 300px;
+   
+}
+.footer .footerSev {
+    position: relative;
+    height: 80px;
+    border-bottom: 1px solid #b0b0b0;
+}
+.footer .footerSev li {
+   
+    float: left;
+    margin-top: 27px;
+    width: 243px;
+    height: 25px;
+    border-right: 1px solid  #b0b0b0;
+    text-align: center;
+    line-height: 25px;
+    font-size: 24px;
+    color: #616161;
+}
+
+
+.footer .footerSev .noborder {
+    border: none;
+}
+.footer .footerSev li a {
+    line-height: 25px;
+    font-size: 20px;
+    color: #616161;
+}
+.footerLinks {
+    width: 100%;
+    height: 192px;
+
+}
+
+.footerLinks .colinks dl {
+    width: 160px;
+    height: 112px;
+    margin-top: 40px;
+    float: left; 
+}
+.footerLinks .colinks dt {
+   font-size: 14px;
+   color: #616161;
+   
+}
+.footerLinks .colinks dd {
+    font-size: 12px;
+    color: #616161;
+    
+} 
+.footerLinks .contact {
+    float: right;
+    width: 180px;
+    margin: 40px;
+    height: 110px;
+}
+.footerLinks .contact .num {
+    text-align: center;
+    color: #f87300;
+    font-size: 24px;
+}
+.footerLinks .contact .des {
+    text-align: center;
+    color: #616161;
+    font-size: 12px;
+}
+.footerLinks .contact .kefu {
+    width: 120px;
+    height: 30px;
+    font-size: 14px;
+    margin-left: 50px;
+    text-align: center;
+    border: #f87300 1px solid;
+    color: #f87300;
+}
+.footerLinks .contact div {
+    font-size: 10px;
+    text-align: center;
+}
+.footerLinks .contact div a {
+    font-size: 20px;
+}

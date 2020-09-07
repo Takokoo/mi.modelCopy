@@ -1,0 +1,11 @@
+.w {
+    margin: 0 auto;
+    width: 1226px;
+    min-width: 1226px;
+}
+.l {
+    float: left;
+}
+.r {
+    float: right;
+}
